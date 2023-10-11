@@ -5,36 +5,88 @@
         <title>Week 1</title>
         </head>
         <body>
-            <h2>Hello</h2>
+            <canvas width="600" height="600"></canvas>
 
-            <ul>
-                <li>first</li>
-                <li>second</li>
-            </ul>
+            <script>
+                //query selector select sth from this document
+                let canvas = document.querySelector('canvas')
+                let context = canvas.getContext('2d');
 
-            <img src="mimi.jpg" alt="mimi" width="300">
-            <a href="https://www.google.com">Google</a>
+                context.fillStyle = 'red';
+                //context.fillRect(100,100,400,400);
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ocean</th>
-                        <th>Average depth</th>
-                    </tr>
-                </thead>
-    
-                <tbody>
-                    <tr>
-                        <td>1100 m</td>
-                        <td>2000m</td>
-                    </tr>
-                    <tr>
-                        <td>232342 m</td>
-                        <td>48838 m</td>
-                    </tr>
-    
-                </tbody>
-            </table>
+                /*context.beginPath();
+                context.rect(100,100,400,400);
+                context.stroke()
+                context.lineWidth = 5;*/
+
+                /*context.beginPath();
+                context.arc(300,300,100,0, Math.PI*2);
+                context.stroke();*/
+
+                context.lineWidth = 5;
+
+                //basically dia akan habiskan column dulu baru move to the next column
+                const width = 60;
+                const height = 60;
+                const gap = 20;
+                let x, y;
+
+                for(let i = 0; i<5; i++){
+                    for (let j = 0; j < 5; j++){
+                        x = 100 + (width + gap) * i;
+                        y = 100 + (height + gap) * j;
+
+                        context.beginPath();
+                        //context.rect(100 + 70 * i,100,60,100);
+                        context.rect(x,y,width,height);
+                        context.stroke();
+
+                        if(Math.random() > 0.5){ //0...1
+                            context.beginPath();
+                            context.rect(x + 8, y+8, width - 16, height - 16);
+                            context.stroke();
+                        }
+                    }
+                }
+
+                Math.random() //0...1
+
+                function add(a,b){
+                    return a+b
+                }
+
+                let result = add(6,8);
+                console.log(result);
+
+                function multiply(a,b){
+                    return a*b
+                }
+
+                console.log(multiply(9,2));
+
+                //array
+                let years = [];
+                let menu = ['fries', 'ice cream', 'dessert']
+
+                for (let i = 0; i < menu.length; i++){
+                    console.log(menu[i]);
+                }
+
+                for(let i = 0; i < 10; i++){
+                    years.push(2030 + i);
+                }
+
+                console.log(years)
+
+                const gravity = 9.81;
+                const velocity = 0.0;
+
+                menu.forEach(item => {
+                    console.log(item)
+                })
+
+            </script>
             
         </body>
 </html>

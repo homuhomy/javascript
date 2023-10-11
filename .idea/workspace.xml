@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408da165-c4b8-4563-91a9-b343a9cb0e00" name="Changes" comment="" />
+    <list default="true" id="408da165-c4b8-4563-91a9-b343a9cb0e00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/visualjs/breakout/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/breakout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/breakout/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/01/2023.09.13-21.32.08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/02/2023.10.04-23.18.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/output/2023.10.04-23.17.50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/sketch-01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualjs/sketches/sketch-02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualjs/Memory-Game/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/visualjs/Memory-Game/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/week1.html" beforeDir="false" afterPath="$PROJECT_DIR$/week1/week1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,26 +41,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2UUDzFKJgDPsAca9KNg9C8ViXSh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/homuhomy/Desktop/UM/Harvard cs50",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/homuhomy/Desktop/UM/Harvard cs50&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,11 +79,36 @@
       <option name="presentableId" value="Default" />
       <updated>1692985526187</updated>
       <workItem from="1692985527264" duration="2995000" />
-      <workItem from="1693039928560" duration="10968000" />
+      <workItem from="1693039928560" duration="11696000" />
+      <workItem from="1693295880016" duration="3034000" />
+      <workItem from="1693666902844" duration="1964000" />
+      <workItem from="1693668875701" duration="1719000" />
+      <workItem from="1693718458533" duration="1800000" />
+      <workItem from="1694441472478" duration="8141000" />
+      <workItem from="1694752186014" duration="598000" />
+      <workItem from="1695047101905" duration="3158000" />
+      <workItem from="1695176156370" duration="58000" />
+      <workItem from="1695176855099" duration="1148000" />
+      <workItem from="1696297049399" duration="598000" />
+      <workItem from="1696421838319" duration="7525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
